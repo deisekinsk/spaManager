@@ -33,7 +33,7 @@ public class Main {
 
         System.out.println("Array List:" + values);
         CheckIn guestOne = new CheckIn();
-        System.out.println("You will stay " + CheckIn.hostedDays(values) + " days in Spa. Enjoy it!");
+        CheckIn.hostedDays(values);
     }
 
 }
